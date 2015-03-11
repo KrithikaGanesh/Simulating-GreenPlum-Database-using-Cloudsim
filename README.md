@@ -1,14 +1,7 @@
 # Simulating-GreenPlum-Database-using-Cloudsim
 SImulating the work load management of Greenplum using cloudsim
 
-/*
- * Title:        CloudSim Toolkit
- * Description:  CloudSim (Cloud Simulation) Toolkit for Modeling and Simulation
- *               of Clouds
- * Licence:      GPL - http://www.gnu.org/copyleft/gpl.html
- *
- * Copyright (c) 2009, The University of Melbourne, Australia
- */
+
 
 package org.cloudbus.cloudsim.examples;
 
@@ -264,29 +257,5 @@ public class CloudSimExample2 {
 
             }
 }
-Hide details
-Change log
-r231 by rodrigo.calheiros on Apr 28, 2013   Diff
-Solved  Issue 44 :
-UtilizationModelPlanetLabInMemory: use a
-global constant to define the size of the
-data field: a new constructor for the
-classes, allowing definition of data size,
-was added.
 
-Solved  Issue 49 : Wrong calculation of debt
-during migrationL: all references to debt
-from Datacenter and its subclasses were
-removed.
-
-...
-Go to: 	
-Double click a line to add a comment
-Older revisions
- r168 by rodrigo.calheiros on Apr 25, 2012   Diff 
- r113 by anton.beloglazov on Jan 4, 2012   Diff 
- r10 by anton.beloglazov on Jul 26, 2010   Diff 
-All revisions of this file
-File info
-Size: 9727 bytes, 263 lines
-View raw file
+ 
